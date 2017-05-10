@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tratamiento"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.krivic.handson.TratamientoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:id="@+id/LayoutHorariosDisponibles"
+        android:layout_alignParentBottom="true">
+
+    <TextView
+        android:text="Tratamientos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etxHorasDisTerap"
+        android:layout_marginTop="20dp"
+        android:id="@+id/etxHorasDisTerap"
+        android:textSize="25sp"
+        android:textColor="#96d0c4"
+        android:textStyle="normal|italic|bold"
+        android:textAlignment="center" />
+
+        <TextView
+            android:text="Hidro-Bodywork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:textColor="#96d0c4"
+            android:id="@+id/textView2"
+            android:textSize="20sp"
+            android:textStyle="normal|italic|bold"
+            />
+        <TextView
+            android:text="Hace uso del agua en sus diferentes estados para aprovechar sus veneficios junto al deep o relaxing bodywork en una camilla hecha exlusivamente para ello."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="normal|italic"
+            />
+
+        <TextView
+            android:text="Hidro-Bodywork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:textColor="#96d0c4"
+            android:id="@+id/textView3"
+            android:textSize="20sp"
+            android:textStyle="normal|italic|bold"
+            />
+        <TextView
+            android:text="Hace uso del agua en sus diferentes estados para aprovechar sus veneficios junto al deep o relaxing bodywork en una camilla hecha exlusivamente para ello."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="normal|italic"
+            />
+        <TextView
+            android:text="Hidro-Bodywork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:textColor="#96d0c4"
+            android:id="@+id/textView4"
+            android:textSize="20sp"
+            android:textStyle="normal|italic|bold"
+            />
+        <TextView
+            android:text="Hace uso del agua en sus diferentes estados para aprovechar sus veneficios junto al deep o relaxing bodywork en una camilla hecha exlusivamente para ello."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="normal|italic"
+            />
+        <TextView
+            android:text="Hidro-Bodywork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:textColor="#96d0c4"
+            android:id="@+id/textView5"
+            android:textSize="20sp"
+            android:textStyle="normal|italic|bold"
+            />
+        <TextView
+            android:text="Hace uso del agua en sus diferentes estados para aprovechar sus veneficios junto al deep o relaxing bodywork en una camilla hecha exlusivamente para ello."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="normal|italic"
+            />
+
+
+        <TextView
+            android:text="Hidro-Bodywork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:textColor="#96d0c4"
+            android:id="@+id/textView6"
+            android:textSize="20sp"
+            android:textStyle="normal|italic|bold"
+            />
+        <TextView
+            android:text="Hace uso del agua en sus diferentes estados para aprovechar sus veneficios junto al deep o relaxing bodywork en una camilla hecha exlusivamente para ello."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="normal|italic"
+            />
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

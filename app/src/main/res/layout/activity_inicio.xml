@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inicio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.krivic.handson.InicioActivity"
+    android:background="@drawable/handson7jpg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp">
+
+    <Button
+        android:background="@drawable/rename"
+        android:text="Registro"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:startColor="#FFFFFF"
+            android:endColor="#00FF00"
+            android:angle="270"
+
+        android:layout_marginRight="0dp"
+        android:id="@+id/registro"
+
+        android:textColor="@android:color/white"
+        android:onClick="OpenRegistroActivity"
+        tools:onClick="OpenRegistroActivity"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:text="Tratamientos"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:id="@+id/tratamientos"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:onClick="OpenTratamientoActivity"
+        tools:onClick="OpenTratamientoActivity"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+
+    <Button
+        android:text="Encuesta"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:id="@+id/encuesta"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:onClick="OpenEncuestaActivity"
+        tools:onClick="OpenEncuestaActivity"/>
+
+        <Button
+            android:text="Consultas"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:id="@+id/consultas"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white"
+            android:onClick="OpenConsultaActivity"
+            tools:onClick="OpenConsultaActivity" />
+
+    </LinearLayout>
+
+</RelativeLayout>

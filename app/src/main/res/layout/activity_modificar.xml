@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_modificar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.krivic.handson.ModificarActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:layout_below="@+id/textView"
+            android:layout_marginBottom="82dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:text="Modificar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etxHorasDisTerap"
+                android:layout_marginTop="20dp"
+                android:id="@+id/etxHorasDisTerap"
+                android:textSize="25sp"
+                android:textColor="#96d0c4"
+                android:textStyle="normal|italic|bold"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nombre_txt" />
+
+            <EditText
+                android:id="@+id/nombre_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Nombres"
+                android:ems="10"
+                android:layout_below="@+id/etxtNombres"
+                android:layout_alignRight="@+id/etxtNombres"
+                android:layout_alignEnd="@+id/etxtNombres"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:textSize="20sp"
+                android:textStyle="normal|italic"
+                />
+
+            <TextView
+                android:text="Apellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/apellido_txt" />
+
+            <EditText
+                android:id="@+id/apellido_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Apellidos"
+                android:ems="10"
+                android:layout_below="@+id/etxtApellidos"
+                android:layout_alignRight="@+id/etxtApellidos"
+                android:layout_alignEnd="@+id/etxtApellidos"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:textSize="20sp"
+                android:textStyle="normal|italic"
+                />
+
+            <TextView
+                android:text="Dni"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dni_txt" />
+
+            <EditText
+                android:id="@+id/dni_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="DNI"
+                android:ems="10"
+                android:layout_below="@+id/etxtDNI"
+                android:layout_alignRight="@+id/etxtDNI"
+                android:layout_alignEnd="@+id/etxtDNI"
+                android:layout_marginTop="10dp"
+                android:clickable="false"
+                android:textSize="20sp"
+                android:textStyle="normal|italic"
+                />
+
+            <TextView
+                android:text="Telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/telefono_txt" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/telefono_input"
+                android:hint="Teléfono movil"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|italic"/>
+
+
+            <TextView
+                android:text="Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email_txt" />
+
+            <EditText
+                android:id="@+id/email_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Direccion de correo electrónico"
+                android:ems="10"
+                android:layout_below="@+id/editText"
+                android:layout_alignRight="@+id/editText"
+                android:layout_alignEnd="@+id/editText"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="normal|italic"/>
+
+            <!--
+                        <TextView
+                            android:text="Viene principalmente para:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView2"
+                            android:layout_alignRight="@+id/textView2"
+                            android:layout_alignEnd="@+id/textView2"
+                            android:layout_marginTop="20dp"
+                            android:id="@+id/textView2"
+                            android:textSize="20sp"
+                            android:textStyle="normal|italic"
+                            />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                     <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:layout_marginTop="15dp">
+
+                                <CheckBox
+                                    android:text="Desestresarce"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/checkEspecializaciones"
+                                    android:textSize="18sp"
+                                    android:textStyle="normal|italic"/>
+
+                                <CheckBox
+                                    android:text="Aliviar dolor"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/checkBox6"
+                                    android:textSize="18sp"
+                                    android:textStyle="normal|italic"/>
+
+                                <CheckBox
+                                    android:text="Reducir medidas"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/checkBox10"
+                                    android:textSize="18sp"
+                                    android:textStyle="normal|italic"/>
+
+
+                            </LinearLayout>
+                        </ScrollView>
+                    </LinearLayout>
+
+
+                        <TextView
+                            android:text="Qué aroma prefiere para su tratamiento:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/textView2"
+                            android:layout_alignRight="@+id/textView2"
+                            android:layout_alignEnd="@+id/textView2"
+                            android:layout_marginTop="20dp"
+                            android:id="@+id/textView3"
+                            android:textSize="20sp"
+                            android:textStyle="normal|italic"
+                            />
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ScrollView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:layout_marginTop="15dp">
+
+                                    <CheckBox
+                                        android:text="Ninguno"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/checkNinguno"
+                                        android:textSize="18sp"
+                                        android:textStyle="normal|italic"/>
+
+                                    <CheckBox
+                                        android:text="Canela"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/checkCanela"
+                                        android:textSize="18sp"
+                                        android:textStyle="normal|italic"/>
+
+                                    <CheckBox
+                                        android:text="Limón"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/checkLimon"
+                                        android:textSize="18sp"
+                                        android:textStyle="normal|italic"/>
+
+                                    <CheckBox
+                                        android:text="Vanilla"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:id="@+id/checkVainilla"
+                                        android:textSize="18sp"
+                                        android:textStyle="normal|italic"/>
+
+                                </LinearLayout>
+                            </ScrollView>
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="0dp">
+
+                        <TextView
+                            android:text="Indique si tiene alguna alergia:"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txtvDiagView"
+                            android:layout_alignRight="@+id/txtvDiagView"
+                            android:layout_alignEnd="@+id/txtvDiagView"
+                            android:layout_marginTop="20dp"
+                            android:id="@+id/txtvDiagView"
+                            android:textSize="20sp"
+                            android:textStyle="normal|italic"
+                            />
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="none"
+                            android:hint="Max. 50 caracteres"
+                            android:clickable="false"
+                            android:ems="10"
+                            android:textSize="18sp"
+                            android:id="@+id/etxSintomas"
+                            android:layout_marginTop="10dp"
+                            android:textStyle="normal|italic"
+
+                            />
+                    </LinearLayout>
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp">
+
+                        <CheckBox
+                            android:text="Declaro haber brindado informacion fidedigna."
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/checkDeclaro"
+                            android:textSize="18sp"
+                            android:textStyle="normal|italic"/>
+                    </LinearLayout>-->
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modificar"
+                android:id="@+id/modificar_btn"
+                android:layout_below="@+id/gridLayout"
+                android:layout_centerHorizontal="true"
+                android:background="#96d0c4"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                tools:textStyle="normal"
+                android:layout_margin="30dp"
+                android:layout_marginTop="47dp"
+                android:onClick="modificar_clicked" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_encuesta"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.krivic.handson.EncuestaActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_below="@+id/textView"
+        android:layout_marginBottom="82dp"
+        android:layout_alignParentBottom="true">
+
+    <TextView
+        android:text="Encuesta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etxHorasDisTerap"
+        android:layout_marginTop="20dp"
+        android:id="@+id/etxHorasDisTerap"
+        android:textSize="25sp"
+        android:textColor="#96d0c4"
+        android:textStyle="normal|italic|bold"
+        android:textAlignment="center" />
+
+        <TextView
+            android:text="Desempeño del personal:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView2"
+            android:textSize="20sp"
+            android:textStyle="normal|italic"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp">
+
+                    <RadioButton
+                        android:text="Muy bueno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkMuybueno1"
+                        android:textSize="17sp"
+                        android:textStyle="normal|italic"
+                        android:duplicateParentState="false" />
+
+                    <RadioButton
+                        android:text="Bueno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkBueno1"
+                        android:textSize="17sp"
+                        android:textStyle="normal|italic"/>
+
+                    <RadioButton
+                        android:text="Regular"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkRegular1"
+                        android:textSize="17sp"
+                        android:textStyle="normal|italic"/>
+
+                    <RadioButton
+                        android:text="Malo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkMalo1"
+                        android:textSize="17sp"
+                        android:textStyle="normal|italic"/>
+
+                    <RadioButton
+                        android:text="Muy malo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/checkMuymalo1"
+                        android:textSize="17sp"
+                        android:textStyle="normal|italic"/>
+
+
+
+                </RadioGroup>
+            </ScrollView>
+
+
+            <TextView
+                android:text="Infraestructura:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_alignRight="@+id/textView2"
+                android:layout_alignEnd="@+id/textView2"
+                android:layout_marginTop="20dp"
+                android:id="@+id/textView12"
+                android:textSize="20sp"
+                android:textStyle="normal|italic"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="15dp">
+
+                        <RadioButton
+                            android:text="Muy bueno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/checkEspecializaciones1"
+                            android:textSize="17sp"
+                            android:textStyle="normal|italic"/>
+
+                        <RadioButton
+                            android:text="Bueno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/checkBox8"
+                            android:textSize="17sp"
+                            android:textStyle="normal|italic"/>
+
+                        <RadioButton
+                            android:text="Regular"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/checkBox9"
+                            android:textSize="17sp"
+                            android:textStyle="normal|italic"/>
+
+                        <RadioButton
+                            android:text="Malo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/checkBox14"
+                            android:textSize="17sp"
+                            android:textStyle="normal|italic"/>
+
+                        <RadioButton
+                            android:text="Muy malo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/checkBox15"
+                            android:textSize="17sp"
+                            android:textStyle="normal|italic"/>
+
+
+
+                    </RadioGroup>
+                </ScrollView>
+
+            </LinearLayout>
+    </LinearLayout>
+
+
+        <TextView
+            android:text="Recomendaría nuestros servicios:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_alignRight="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView15"
+            android:textSize="20sp"
+            android:textStyle="normal|italic"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+
+            <RadioButton
+                android:text="SI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkEspecializaciones8"
+                android:textSize="17sp"
+                android:textStyle="normal|italic"/>
+
+            <RadioButton
+                android:text="NO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox11"
+                android:textSize="17sp"
+                android:textStyle="normal|italic"/>
+
+            </RadioGroup>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp">
+
+            <TextView
+                android:text="Comentarios o sugerencias:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtvDiagView"
+                android:layout_alignRight="@+id/txtvDiagView"
+                android:layout_alignEnd="@+id/txtvDiagView"
+                android:layout_marginTop="20dp"
+                android:id="@+id/txtvDiagView"
+                android:textSize="20sp"
+                android:textStyle="normal|italic"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:hint="Max. 50 caracteres"
+                android:clickable="false"
+                android:ems="10"
+                android:textSize="18sp"
+                android:id="@+id/etxSintomas"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|italic"
+
+                />
+        </LinearLayout>
+
+
+
+        <Button
+            android:text="Terminar encuesta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGuardarInformar"
+            android:background="#96d0c4"
+            android:textColor="@android:color/background_light"
+            android:layout_margin="30dp"
+            android:textSize="20sp"
+            tools:textStyle="normal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:onClick="OpenInicioActivity"
+            tools:onClick="OpenInicioActivity"
+            />
+    </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>
